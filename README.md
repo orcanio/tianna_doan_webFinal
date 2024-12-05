@@ -21,5 +21,8 @@ color palette
 “Peace Lotus” by Paper Heart Design Co.
 https://paperheartdesign.com/blog/color-palette-peaceful-palettes
 
+coding resources:
+https://www.geeksforgeeks.org/how-to-turn-an-image-into-a-link-in-html/
+
 
 # acknowledgements
