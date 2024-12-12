@@ -6,6 +6,7 @@ box-sizing: border-box;
 
 html {
 overflow-x: hidden;
+background-color: #e4ebeb;
 }
 
 body {
@@ -19,31 +20,46 @@ display: block;
 header {
 z-index: 100;
 margin: 0;
-padding 15%;   
+padding 2%;
+height: 2%;
 width: 100%;
-background-color: #dac4d0;
+background-color: #f7badc;
 display: flex;
 }
 
+#logo {
+margin-left: 40%;
+padding 2%;
+width: 60%;
+display: flex;
+justify-content: flex-start;
+}
+
 nav {
-height: 15%;
+height: 2%;
 width: 70%;
-margin: auto;
-padding 5%;
+margin: 0;
+padding 2%;
 display: flex;
 justify-content: flex-end;
 }
 
 nav a {
-padding: 5%;
+padding: 7%;
 display: flex;
 text-decoration: none;
 color: #11302a;
-list-style: none;
 font-family: "scale-variable", sans-serif;
 font-weight: 400;
 font-size: 40px;
 }
+
+nav a:hover {
+transition-duration: 1s;
+transform: scale(130%);
+color: #e4ebeb;
+}
+
 
 body {
 min-height: 100%;
@@ -55,44 +71,100 @@ align-items: center;
 .main {
 margin: auto;
 padding: 5%;
-align-items: center;
+width: 90%;
+display: block;
+align-items: flex-start;
 justify-content: center;
 }
 
+.lineupP {
+display: grid;
+
+}
+
+.shopGrid {
+display: grid;
+grid-gap: 1rem;
+grid-template-columns: repeat (4, 1fr);
+
+}
+
+footer {
+z-index: 100;
+margin: auto;
+padding 2%;
+width: 100%;
+background-color: #f7badc;
+display: block;
+}
+
+#footerImg {
+margin: auto;
+padding 2%;
+width: 30%;
+display: block;
+justify-content: flex-start;
+}
+
 h1 {
-align-items: center;
-justify-content: center;
+text-align: center;
 font-size: 70px;
 font-family: "scale-variable", sans-serif;
 font-weight: 400;
 }
 
 h2 {
-align-content: center;
+text-align: center;
 font-size: 50px;
 font-family: "scale-variable", sans-serif;
-font-weight: 400;
+font-weight: 300;
 }
 
 h3 {
-align-content: center;
+text-align: center;
 font-size: 30px;
 font-family: "scale-variable", sans-serif;
-font-weight: 400;
+font-weight: 200;
 }
 
 p {
-font-family: "Roboto", sans-serif;
-}
-
-#logo {
-margin: auto;
-padding 15%;
-width: 60%;
-}
-
-#homeImg{
 margin: 2%;
-width: 100%
+font-family: "Roboto", sans-serif;
+font-size: 20px;
 }
+
+#footerP {
+margin: 2%;
+}
+
+img {
+margin: auto;
+padding: 2%;
+}
+
+img:hover {
+transition-duration: 1s;
+transform: scale(130%);   
+}
+
+#homeImg {
+width: 80%;
+display: block;
+justify-content: center;
+}
+
+#aboutArt { 
+width: 40%;
+display: block;
+justify-content: center;
+}
+
+#clothing {
+width: 30%;
+}
+
+#clothing2 {
+width: 30%;
+}
+
 
