@@ -9,21 +9,13 @@ overflow-x: hidden;
 background-color: #e4ebeb;
 }
 
-body {
-margin: 15%;
-padding 15%;   
-width: 100%;
-display: block;
-}
-
-
 header {
 z-index: 100;
 margin: 0;
 padding 2%;
 height: 2%;
 width: 100%;
-background-color: #f7badc;
+background-color: #f8cfdd;
 display: flex;
 }
 
@@ -57,9 +49,8 @@ font-size: 40px;
 nav a:hover {
 transition-duration: 1s;
 transform: scale(130%);
-color: #e4ebeb;
+color: white;
 }
-
 
 body {
 min-height: 100%;
@@ -74,39 +65,10 @@ padding: 5%;
 width: 90%;
 display: block;
 align-items: flex-start;
-justify-content: center;
-}
-
-.lineupP {
-display: grid;
-
-}
-
-.shopGrid {
-display: grid;
-grid-gap: 1rem;
-grid-template-columns: repeat (4, 1fr);
-
-}
-
-footer {
-z-index: 100;
-margin: auto;
-padding 2%;
-width: 100%;
-background-color: #f7badc;
-display: block;
-}
-
-#footerImg {
-margin: auto;
-padding 2%;
-width: 30%;
-display: block;
-justify-content: flex-start;
 }
 
 h1 {
+color: #11302a;
 text-align: center;
 font-size: 70px;
 font-family: "scale-variable", sans-serif;
@@ -114,6 +76,7 @@ font-weight: 400;
 }
 
 h2 {
+color: #11302a;
 text-align: center;
 font-size: 50px;
 font-family: "scale-variable", sans-serif;
@@ -121,6 +84,7 @@ font-weight: 300;
 }
 
 h3 {
+color: #11302a;
 text-align: center;
 font-size: 30px;
 font-family: "scale-variable", sans-serif;
@@ -133,38 +97,145 @@ font-family: "Roboto", sans-serif;
 font-size: 20px;
 }
 
-#footerP {
-margin: 2%;
-}
-
 img {
 margin: auto;
 padding: 2%;
 }
 
-img:hover {
-transition-duration: 1s;
-transform: scale(130%);   
+#bottom {
+margin: auto;
+padding: auto;
+}
+
+footer {
+z-index: 100;
+margin: auto;
+padding 2%;
+height: 2%;
+width: 100%;
+background-color: #f8cfdd;
+display: block;
+flex-direction: row;
+justify-content: center;
 }
 
 #homeImg {
-width: 80%;
-display: block;
+margin-left: 0;
+padding-left: 0;
+width: 40%;
+align-items: flex-start;
+}
+
+.info {
+margin-top: 1%;
+padding-top: 1%;
+float: right;
+width: 60%;
+}
+
+#aapiGraphic {
+margin-right: 0;
+padding-right: 0;
+width: 40%;
+float: right;
+}
+
+.partner {
+margin-top: 1%;
+padding-top: 1%;
+}
+
+#logoBW {
+margin-left: 35%;
+width: 15%;
+align-content: center;
+justify-content: center;
+}
+
+#aapiBW {
+margin-right: 30%;
+width: 15%;
+align-content: center;
 justify-content: center;
 }
 
 #aboutArt { 
+margin-left: 0;
+padding-left: 0;
 width: 40%;
+align-items: flex-start;
+}
+
+.aboutP {
+margin-top: 1%;
+padding-top: 1%;
+float: right;
+width: 60%;   
+}
+
+/* end of main elements */
+
+#eventImg {
+width: 60%;
 display: block;
 justify-content: center;
 }
 
+.lineup {
+float: right;
+margin-top: 3%;
+width: 60%;
+}
+
+#ppl {
+width: 40%;
+}
+
+/* end of events pg */
+
+.shopGrid {
+margin: auto;
+padding: auto;
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#ticket {
+margin: 0;
+padding: 1%;
+padding-top: 2%;
+display: inline-flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#ticket img {
+margin: 0;
+padding: 1%;
+width: 40%;
+display:inline-flex;
+justify-content: center;
+}
+
+#ticket h3 {
+display: block;
+text-align: left;
+align-items: flex-start;
+}
+
 #clothing {
+margin: 0;
+padding: 1%;
+padding-top: 2%;
 width: 30%;
+display: flex;
+justify-content: center;
 }
 
-#clothing2 {
-width: 30%;
-}
-
-
+/* end of shop pg */
